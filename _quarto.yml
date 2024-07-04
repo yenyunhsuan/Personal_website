@@ -2,18 +2,32 @@ project:
   type: website
 
 website:
-  title: "Personal_website"
+  title: "Tina's website"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
+      - text: "Analysis"
+        menu:
+          - text: "R Visual"
+            href: "R_Visual.html"
+    right:
+      - icon: github
+        href: https://github.com/yenyunhsuan?tab=repositories
+      - icon: linkedin
+        href: https://www.linkedin.com/in/tina-yen/
+
+          
 
 format:
   html:
-    theme: cosmo
+    theme: lux
     css: styles.css
     toc: true
+    fontsize: 1.1em
+    linestretch: 1.5
 
 editor: visual
 
