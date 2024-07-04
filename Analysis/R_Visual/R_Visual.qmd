@@ -1,5 +1,4 @@
 ---
-title: "Take Home Exercise 1"
 title-block-banner: true
 format: 
   html: 
@@ -7,7 +6,6 @@ format:
     code-summary: "Show the code"
 editor: visual
 author: Yen Yun Hsuan
-date: "13 May 2023"
 execute: 
   warning: false
 ---
@@ -54,12 +52,6 @@ Reorder education level from lowest to highest degree.
 participant <- participant %>%
   mutate(educationLevel=factor(educationLevel,levels = c("Low", "HighSchoolOrCollege", "Bachelors", "Graduate")))
 data.frame(levels(participant$educationLevel))
-```
-
-Each column format has been adjusted as below table shown.
-
-```{r}
-head(participant)
 ```
 
 ## Financial Journal

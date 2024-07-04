@@ -12,7 +12,7 @@ website:
       - text: "Analysis"
         menu:
           - text: "R Visual"
-            href: "R_Visual.html"
+            href: "Analysis/R_Visual/R_Visual.html"
     right:
       - icon: github
         href: https://github.com/yenyunhsuan?tab=repositories
