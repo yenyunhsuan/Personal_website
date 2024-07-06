@@ -82,5 +82,117 @@
     "title": "Tina's website",
     "section": "Different age",
     "text": "Different age\nBy categorizing participants into different age groups and comparing their total expenses and wages, observe that the differences among age groups are relatively small. This suggests that age may not be a significant factor influencing financial habits.\n\nDataPlot\n\n\n\n\nShow the code\ndf_age <- df_average %>% \n  mutate(age_bins = \n           cut(age, \n               breaks = c(17,25,35,45,55,60))\n)\n\nknitr::kable(head(df_age), format = 'html')\n\n\n\n\n \n  \n    participantId \n    Education \n    Food \n    Recreation \n    Shelter \n    Wage \n    RentAdjustment \n    Total_Expense \n    Month_count \n    householdSize \n    haveKids \n    age \n    educationLevel \n    interestGroup \n    joviality \n    age_bins \n  \n \n\n  \n    0 \n    38.0 \n    261.8 \n    365.3 \n    555.0 \n    9151.4 \n    0.0 \n    1220.1 \n    12 \n    3 \n    TRUE \n    36 \n    HighSchoolOrCollege \n    H \n    0.0016267 \n    (35,45] \n  \n  \n    1 \n    38.0 \n    263.9 \n    553.1 \n    555.0 \n    8031.3 \n    0.0 \n    1410.1 \n    12 \n    3 \n    TRUE \n    25 \n    HighSchoolOrCollege \n    B \n    0.3280865 \n    (17,25] \n  \n  \n    2 \n    12.8 \n    288.9 \n    347.7 \n    556.6 \n    7092.3 \n    0.0 \n    1206.0 \n    12 \n    3 \n    TRUE \n    35 \n    HighSchoolOrCollege \n    A \n    0.3934696 \n    (25,35] \n  \n  \n    3 \n    38.0 \n    283.0 \n    392.0 \n    555.0 \n    6855.8 \n    0.0 \n    1268.0 \n    12 \n    3 \n    TRUE \n    21 \n    HighSchoolOrCollege \n    I \n    0.1380634 \n    (17,25] \n  \n  \n    4 \n    12.8 \n    271.8 \n    526.3 \n    1404.5 \n    8837.9 \n    400.8 \n    2215.5 \n    12 \n    3 \n    TRUE \n    43 \n    Bachelors \n    H \n    0.8573967 \n    (35,45] \n  \n  \n    5 \n    12.8 \n    345.4 \n    428.3 \n    600.0 \n    1934.1 \n    0.0 \n    1386.5 \n    12 \n    3 \n    TRUE \n    32 \n    HighSchoolOrCollege \n    D \n    0.7729578 \n    (25,35] \n  \n\n\n\n\n\n\n\n\n\nShow the code\np1 <- ggplot(df_age, \n       aes(x = age_bins, \n           y = Wage)) +\n  stat_halfeye(aes(fill=age_bins)) +\n  geom_boxplot(width = .20,\n               outlier.shape = NA) +\n  stat_dots(side = \"left\", \n            justification = 1.2, \n            binwidth = .5,\n            dotsize = 1.5) +\n  coord_flip()+\n  ylab(\" \")+\n  ggtitle(\"Wage of Different Age\")+\n  geom_hline(aes(yintercept=median(Wage)),\n             color=\"black\", \n             size=1)+\n  annotate(\"text\", x = min(as.numeric(df_age$age_bins)), y = 4000, \n           label = \"Median\", vjust = 1.5, hjust = 0)\n\np2 <- ggplot(df_age, \n       aes(x = age_bins, \n           y = Total_Expense)) +\n  stat_halfeye(aes(fill=age_bins)) +\n  geom_boxplot(width = .20,\n               outlier.shape = NA) +\n  stat_dots(side = \"left\", \n            justification = 1.2, \n            binwidth = .5,\n            dotsize = 1.5) +\n  coord_flip()+\n  ylab(\" \")+\n  ggtitle(\"Total Expense of Different Age\")+\n  geom_hline(aes(yintercept=median(Total_Expense)),\n             color=\"black\", \n             size=1)+\n  theme(legend.position = \"None\")+\n  annotate(\"text\", x = min(as.numeric(df_age$age_bins)), y = 1500, \n           label = \"Median\", vjust = 1.5, hjust = 0)\n\np1/p2"
+  },
+  {
+    "objectID": "Marketing/3M.html#strategy-development-and-demand-generation-for-3m-hands-free-self-cleaning-mop",
+    "href": "Marketing/3M.html#strategy-development-and-demand-generation-for-3m-hands-free-self-cleaning-mop",
+    "title": "Product Analysis (3M)",
+    "section": "Strategy Development and Demand Generation for 3M Hands Free Self-Cleaning Mop",
+    "text": "Strategy Development and Demand Generation for 3M Hands Free Self-Cleaning Mop"
+  },
+  {
+    "objectID": "Marketing/3M.html#product-marketing-plan",
+    "href": "Marketing/3M.html#product-marketing-plan",
+    "title": "Tina's website",
+    "section": "Product Marketing Plan",
+    "text": "Product Marketing Plan\n3M Hands Free Self-Cleaning Mop"
+  },
+  {
+    "objectID": "Marketing/3M.html#product-lineup",
+    "href": "Marketing/3M.html#product-lineup",
+    "title": "Product Marketing Plan",
+    "section": "Product Lineup",
+    "text": "Product Lineup"
+  },
+  {
+    "objectID": "Marketing/3M.html#section",
+    "href": "Marketing/3M.html#section",
+    "title": "Product Marketing Plan",
+    "section": "",
+    "text": "重品質高預算"
+  },
+  {
+    "objectID": "Marketing/3M.html#product-positioning",
+    "href": "Marketing/3M.html#product-positioning",
+    "title": "Product Marketing Plan",
+    "section": "Product Positioning",
+    "text": "Product Positioning"
+  },
+  {
+    "objectID": "Marketing/3M.html#slide-with-zoomed-image",
+    "href": "Marketing/3M.html#slide-with-zoomed-image",
+    "title": "Product Marketing Plan",
+    "section": "Slide with Zoomed Image",
+    "text": "Slide with Zoomed Image"
+  },
+  {
+    "objectID": "Marketing/3M.html#product-comparison",
+    "href": "Marketing/3M.html#product-comparison",
+    "title": "Product Marketing Plan",
+    "section": "Product Comparison",
+    "text": "Product Comparison\n\n\n\n\n\n\n\n\n::: {.fragment}\nfade in\n:::"
+  },
+  {
+    "objectID": "Marketing/3M.html#table-with-fragment-effects",
+    "href": "Marketing/3M.html#table-with-fragment-effects",
+    "title": "Product Marketing Plan",
+    "section": "Table with Fragment Effects",
+    "text": "Table with Fragment Effects\n| Fade in | Fade out | Highlight red | Fade in, then out | Slide up while fading in | |-------------------------------|-------------------------------|----------------------------------|-------------------------------------|-------------------------------------| | ::: {.fragment} | ::: {.fragment .fade-out} | ::: {.fragment .highlight-red} | ::: {.fragment .fade-in-then-out} | ::: {.fragment .fade-up} | | Fade in | Fade out | Highlight red | Fade in, then out | Slide up while fading in | | ::: | ::: | ::: | ::: | ::: |"
+  },
+  {
+    "objectID": "Marketing/3M.html#product-value",
+    "href": "Marketing/3M.html#product-value",
+    "title": "Product Marketing Plan",
+    "section": "Product Value",
+    "text": "Product Value\n\n\n\n\n特殊纖維\n\n\n\n強效清潔\n\n\n\n\n\n\n重品質高預算\n\n\n\n\n\n\n輕量設計\n\n\n\n打掃效率\n\n\n\n\n\n\n好打掃省力氣"
+  },
+  {
+    "objectID": "Marketing/3M.html#特殊纖維",
+    "href": "Marketing/3M.html#特殊纖維",
+    "title": "Product Marketing Plan",
+    "section": "特殊纖維",
+    "text": "特殊纖維"
+  },
+  {
+    "objectID": "Marketing/3M.html#強效清潔",
+    "href": "Marketing/3M.html#強效清潔",
+    "title": "Product Marketing Plan",
+    "section": "強效清潔",
+    "text": "強效清潔"
+  },
+  {
+    "objectID": "Marketing/3M.html#m-product-value",
+    "href": "Marketing/3M.html#m-product-value",
+    "title": "Product Marketing Plan",
+    "section": "3M Product Value",
+    "text": "3M Product Value\n\n\n\n\n特殊纖維\n\n\n\n強效清潔\n\n\n\n\n\n\n重品質高預算\n\n\n\n\n\n\n輕量設計\n\n\n\n打掃效率\n\n\n\n\n\n\n好打掃省力氣"
+  },
+  {
+    "objectID": "Marketing/3M.html#customer-profile",
+    "href": "Marketing/3M.html#customer-profile",
+    "title": "Product Marketing Plan",
+    "section": "Customer Profile",
+    "text": "Customer Profile\n\n\n\n\n\n\n\n年齡: 25-35歲\n\n\n\n職業: 上班族\n\n\n\n居住: 10-20坪套房\n\n\n\n\n\n\n\n需求: 清潔效率\n\n\n\n重視: 居家環境\n\n\n\n注重: 生活品質\n\n\n\n\n\n\n\n乾濕兩用\n\n\n\n\n用完即丟\n\n\n\n\n打掃好方便"
+  },
+  {
+    "objectID": "Marketing/3M.html#marketing-plan",
+    "href": "Marketing/3M.html#marketing-plan",
+    "title": "Product Marketing Plan",
+    "section": "Marketing Plan",
+    "text": "Marketing Plan\n\n\n\n\n\n\n\n年齡: 25-35歲\n\n\n\n職業: 上班族\n\n\n\n居住: 10-20坪套房\n\n\n\n\n\n\n\n需求: 清潔效率\n\n\n\n重視: 居家環境\n\n\n\n注重: 生活品質\n\n\n\n\n\n\n\n乾濕兩用\n\n\n\n\n用完即丟\n\n\n\n\n打掃好方便"
+  },
+  {
+    "objectID": "Marketing/3M.html#customer-feedback",
+    "href": "Marketing/3M.html#customer-feedback",
+    "title": "Product Marketing Plan",
+    "section": "Customer Feedback",
+    "text": "Customer Feedback"
+  },
+  {
+    "objectID": "Marketing/3M.html#new-product-plan",
+    "href": "Marketing/3M.html#new-product-plan",
+    "title": "Product Marketing Plan",
+    "section": "New Product Plan",
+    "text": "New Product Plan\n\n保有輕量與清潔力優勢\n\n\n\n改善免手洗刮水功能\n\n\n\n\n\n\n\n\n結合彈簧開關\n\n\n\n上下刮水更省力\n\n\n\n\n\n\n\n改善刮刷密度\n\n\n\n免用手刮除毛髮"
   }
 ]

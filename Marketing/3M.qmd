@@ -1,0 +1,14 @@
+---
+title: "Product Marketing Plan"
+author: "3M Hands Free Self-Cleaning Mop "
+format: 
+  revealjs:
+    theme: default
+    incremental: true   
+---
+
+## Product Lineup
+
+::: {.fragment .fade-in}
+![](/Marketing/images/3M_Lineup.png){.absolute bottom="200" left="50" right="50"}
+:::

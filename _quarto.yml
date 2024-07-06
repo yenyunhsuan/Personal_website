@@ -11,6 +11,10 @@ website:
         menu:
           - text: "R Visual"
             href: "Analysis/R_Visual/R_Visual.html"
+      - text: "Marketing"
+        menu:
+          - text: "Product Analysis"
+            href: "Marketing/3M.html"
     right:
       - icon: github
         href: https://github.com/yenyunhsuan?tab=repositories
