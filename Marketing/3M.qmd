@@ -12,3 +12,173 @@ format:
 ::: {.fragment .fade-in}
 ![](/Marketing/images/3M_Lineup.png){.absolute bottom="200" left="50" right="50"}
 :::
+
+## Product Positioning
+
+::: r-stack
+::: {.fragment .fade-out}
+![](images/3M_Positioning.png){.absolute bottom="100" left="50" right="50"}
+:::
+
+::: {.fragment .fade-in .zoom-in}
+![](images/3M_own_Positioning.png){.absolute bottom="100" left="50" right="50"}
+:::
+:::
+
+## 3M Product Value
+
+::: columns
+::: {.column width="50%" style="position: absolute; bottom: 300px; left: 50px;"}
+::: {.fragment .fade-in}
+### **特殊纖維**
+:::
+
+::: {.fragment .fade-in}
+### **強效清潔**
+:::
+
+::: {.fragment .fade-up}
+::: {.fragment .grow}
+::: {.fragment .highlight-green}
+### 
+
+**重品質高預算**
+:::
+:::
+:::
+:::
+
+::: {.column width="50%" style="position: absolute; bottom: 300px; left: 600px;"}
+::: {.fragment .fade-in}
+### **輕量設計**
+:::
+
+::: {.fragment .fade-in}
+### **打掃效率**
+:::
+
+::: {.fragment .fade-in}
+::: {.fragment .grow}
+::: {.fragment .highlight-green}
+### 
+
+**好打掃省力氣**
+:::
+:::
+:::
+:::
+:::
+
+## Marketing Plan
+
+::: columns
+::: {.column width="50%" style="position: absolute; bottom: 100px; left: 50px;"}
+::: {.fragment .fade-in}
+![](images/Customer.png)
+:::
+
+::: {.fragment .fade-in}
+#### **年齡: 25-35歲**
+:::
+
+::: {.fragment .fade-in}
+#### **職業: 上班族**
+:::
+
+::: {.fragment .fade-in}
+#### **居住: 10-20坪套房**
+:::
+:::
+
+::: {.column width="50%" style="position: absolute; bottom: 100px; left: 500px;"}
+::: {.fragment .fade-in}
+![](images/habit.png)
+:::
+
+::: {.fragment .fade-in}
+#### **需求: 清潔效率**
+:::
+
+::: {.fragment .fade-in}
+#### **重視: 居家環境**
+:::
+
+::: {.fragment .fade-in}
+#### **注重: 生活品質**
+:::
+:::
+
+::: {.column width="50%" style="position: absolute; bottom: 90px; left: 1000px;"}
+::: {.fragment .fade-in}
+![](images/mop.png)
+:::
+
+::: {.fragment .fade-in}
+::: {.fragment .highlight-green}
+**乾濕兩用**
+:::
+:::
+
+::: {.fragment .fade-in}
+::: {.fragment .highlight-green}
+**用完即丟**
+:::
+:::
+
+::: {.fragment .fade-in}
+::: {.fragment .highlight-green}
+**打掃好方便**
+:::
+:::
+:::
+:::
+
+## Customer Feedback
+
+::: {.fragment .fade-in}
+![](images/feedback.png)
+:::
+
+## New Product Plan
+
+::: {.fragment .fade-in}
+**保有輕量與清潔力優勢**
+:::
+
+::: {.fragment .fade-in}
+::: {.fragment .highlight-green}
+**改善免手洗刮水功能**
+:::
+
+::: columns
+::: {.column width="50%" style="position: absolute; bottom: 80px; left: 100px;"}
+::: {.fragment .fade-in}
+![](images/new_product1.png){width="300"}
+:::
+
+::: {.fragment .fade-in}
+#### **結合彈簧開關**
+:::
+
+::: {.fragment .fade-in}
+#### **上下刮水更省力**
+:::
+
+:::
+
+::: {.column width="50%" style="position: absolute; bottom: 80px; left: 700px;"}
+::: {.fragment .fade-in}
+![](images/new_product2.png){width="230"}
+:::
+
+::: {.fragment .fade-in}
+#### **改善刮刷密度**
+:::
+
+::: {.fragment .fade-in}
+#### **免用手刮除毛髮**
+:::
+
+:::
+:::
+:::
