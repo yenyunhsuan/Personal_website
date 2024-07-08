@@ -4,16 +4,17 @@ author: "3M Hands Free Self-Cleaning Mop "
 format: 
   revealjs:
     theme: default
-    incremental: true   
+    incremental: true  
 ---
 
-## Product Lineup
+## Product Lineup  [![](images/home.png){fig-align="center" width="30"  }](https://tina-yen-yunhsuan.netlify.app/)
+
 
 ::: {.fragment .fade-in}
 ![](/Marketing/images/3M_Lineup.png){.absolute bottom="200" left="50" right="50"}
 :::
 
-## Product Positioning
+## Product Positioning  [![](images/home.png){fig-align="center" width="30"  }](https://tina-yen-yunhsuan.netlify.app/)
 
 ::: r-stack
 ::: {.fragment .fade-out}
@@ -25,7 +26,8 @@ format:
 :::
 :::
 
-## 3M Product Value
+## 3M Product Value  [![](images/home.png){fig-align="center" width="30"  }](https://tina-yen-yunhsuan.netlify.app/)
+
 
 ::: columns
 ::: {.column width="50%" style="position: absolute; bottom: 300px; left: 50px;"}
@@ -69,7 +71,9 @@ format:
 :::
 :::
 
-## Marketing Plan
+## Marketing Plan  [![](images/home.png){fig-align="center" width="30"  }](https://tina-yen-yunhsuan.netlify.app/)
+
+
 
 ::: columns
 ::: {.column width="50%" style="position: absolute; bottom: 100px; left: 50px;"}
@@ -133,13 +137,14 @@ format:
 :::
 :::
 
-## Customer Feedback
+## Customer Feedback  [![](images/home.png){fig-align="center" width="30"  }](https://tina-yen-yunhsuan.netlify.app/)
 
 ::: {.fragment .fade-in}
 ![](images/feedback.png)
 :::
 
-## New Product Plan
+## New Product Plan     [![](images/home.png){fig-align="center" width="30"  }](https://tina-yen-yunhsuan.netlify.app/)
+
 
 ::: {.fragment .fade-in}
 **保有輕量與清潔力優勢**
@@ -150,23 +155,23 @@ format:
 **改善免手洗刮水功能**
 :::
 
+
 ::: columns
-::: {.column width="50%" style="position: absolute; bottom: 80px; left: 100px;"}
+::: {.column width="50%" style="position: absolute; bottom: 50px; left: 100px;"}
 ::: {.fragment .fade-in}
 ![](images/new_product1.png){width="300"}
 :::
 
 ::: {.fragment .fade-in}
-#### **結合彈簧開關**
+##### **結合彈簧開關**
 :::
 
 ::: {.fragment .fade-in}
-#### **上下刮水更省力**
+##### **上下刮水更省力**
+:::
 :::
 
-:::
-
-::: {.column width="50%" style="position: absolute; bottom: 80px; left: 700px;"}
+::: {.column width="50%" style="position: absolute; bottom: 50px; left: 700px;"}
 ::: {.fragment .fade-in}
 ![](images/new_product2.png){width="230"}
 :::
@@ -178,7 +183,9 @@ format:
 ::: {.fragment .fade-in}
 #### **免用手刮除毛髮**
 :::
+:::
+:::
+:::
 
-:::
-:::
-:::
+
+

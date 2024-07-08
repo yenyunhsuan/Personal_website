@@ -1,0 +1,35 @@
+<!-- custom_template.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{{ title }}</title>  <!-- Include title dynamically -->
+  {{ head|safe }}
+  <style>
+    .logo-link {
+      position: fixed;
+      top: 10px; /* Adjust as needed */
+      left: 10px; /* Adjust as needed */
+      z-index: 1000;
+    }
+
+    .logo-link a {
+      display: inline-block;
+    }
+
+    .logo-link .logo {
+      width: 50px; /* Adjust size as needed */
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="logo-link">
+    <a href="https://tina-yen-yunhsuan.netlify.app/">
+      <img src="images/home.png" alt="Home" class="logo">
+    </a>
+  </div>
+  {{ body|safe }}
+</body>
+</html>

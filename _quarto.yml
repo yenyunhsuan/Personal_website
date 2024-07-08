@@ -11,6 +11,7 @@ website:
         menu:
           - text: "R Visual"
             href: "Analysis/R_Visual/R_Visual.html"
+           
       - text: "Marketing"
         menu:
           - text: "Product Analysis"
@@ -18,11 +19,12 @@ website:
     right:
       - icon: github
         href: https://github.com/yenyunhsuan?tab=repositories
+   
       - icon: linkedin
         href: https://www.linkedin.com/in/tina-yen/
+
       - icon: envelope
         href: mailto:tina.yen.yunhsuan@gmail.com
-
           
 
 format:
@@ -32,6 +34,8 @@ format:
     toc: true
     fontsize: 1.1em
     linestretch: 1.5
+    scripts:
+      - src: "links.js"
 
 editor: visual
 
