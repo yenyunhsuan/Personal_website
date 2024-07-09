@@ -2,6 +2,7 @@ project:
   type: website
 
 website:
+  google-analytics: "G-CMJVF1Q108"
   title: "Tina's website"
   navbar:
     left:
