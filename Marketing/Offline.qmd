@@ -1,0 +1,23 @@
+---
+title: "Offline Campaign"
+---
+
+::: panel-tabset
+# Pop-Up Event
+
+Organized pop-up store events, attracting 1K+ customers and boosting lead generation through trial listening experiences.
+
+[![](images/popups.jpg)]
+
+# Store Enhancement
+
+Collaborated with store owners to establish VIP listening rooms, which successfully increased store traffic and elevated the average sales unit price.
+
+[![](images/stores.jpg)](https://tw.yamaha.com/zh/find/hificenter/index.html)
+
+# Trade Show
+
+Planned annual audio show event, boosting sales by 200%+ year-over-year with a 95% budget through strategic display adjustments.
+[![](images/show.jpg)]
+
+:::

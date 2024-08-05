@@ -19,6 +19,8 @@ website:
             href: "Marketing/3M.html"
           - text: "Online Campaign"
             href: "Marketing/Online.html"
+          - text: "Offline Campaign"
+            href: "Marketing/Offline.html"
             
             
     right:
